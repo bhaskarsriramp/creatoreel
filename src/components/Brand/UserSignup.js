@@ -14,10 +14,9 @@ import {
   Select,
   Rating, 
   Avatar, 
-  Stack, ClickAwayListener, Dialog, DialogTitle, DialogContent, DialogActions, InputAdornment, InputLabel, FormControl
+  Stack, ClickAwayListener, Dialog, DialogTitle, DialogContent, DialogActions, InputLabel, FormControl
 } from '@mui/material';
 import { toast } from "react-toastify";
-import sideImage from "../../images/IMG_1025.jpg";
 import CircularProgress from '@mui/material/CircularProgress';
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
@@ -352,7 +351,7 @@ function BrandSignup() {
                 sx={{marginTop : '5%', paddingX: '20px'}}
                 >
 
-                <Avatar alt="Travis Howard" src={sideImage} sx={{ width: 40, height: 40 }}/>
+                <Avatar alt="Travis Howard" sx={{ width: 40, height: 40 }}/>
                 <Box 
                 display ='flex'
                 flexDirection={'column'}

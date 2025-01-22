@@ -47,14 +47,6 @@ const { createClient } = require("pexels");
 
 const client = createClient('GFWHPQc8lHEJS9VfLmgMJyXxYwRxFQeEjV6AxNuOML01JW16N0hizyEd');
 
-const lambda = new LambdaClient({
-  region: "us-east-1",
-
-  credentials: {
-    accessKeyId: "AKIASFUIRXHCV5NCSLT4",
-    secretAccessKey: "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",
-  },
-});
 
 // client.videos.search({ query, size, orientation, per_page: 10 }).then((response) => {
 //   const filteredVideos = response.videos.filter(video => video.duration <= max_duration);
@@ -71,15 +63,6 @@ const lambda = new LambdaClient({
 // });
 
 
-
-
-const s3 = new S3Client({
-  credentials: {
-    accessKeyId: 'AKIASFUIRXHCV5NCSLT4',
-    secretAccessKey: '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',
-  },
-  region: 'ap-south-1',
-});
 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {

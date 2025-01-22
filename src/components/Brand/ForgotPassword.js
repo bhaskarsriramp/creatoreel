@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import sideImage from "../../images/IMG_1025.jpg";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { toast } from "react-toastify";

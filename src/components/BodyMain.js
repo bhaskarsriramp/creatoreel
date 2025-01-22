@@ -1,5 +1,4 @@
 import React from "react";
-import mainBanner from "../images/dashimg.png"
 import { Link } from 'react-router-dom';
 import { AppBar, Toolbar, IconButton, Typography, Box, List, ListItem, ListItemText, Hidden, Stack, Button } from '@mui/material';
 import useMediaQuery from '@mui/material/useMediaQuery';

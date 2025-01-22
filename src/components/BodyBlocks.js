@@ -1,11 +1,9 @@
 import React from 'react'
-import banner1 from "../images/banner1.jpg"
 import sideImage1 from "../images/upload-audio-file.svg"
 import machineTranslation from "../images/machine-translation.png"
 import smartCaptions from "../images/smart-captions.png"
 import pexelsLogo from "../images/pexels-logo.png"
 import securityIcon from "../images/security-icon.png"
-import banner3 from "../images/banner3.webp"
 import sideImage2 from "../images/download-video-file.svg"
 import sideImage3 from "../images/video-editor-image.jpg"
 import { Link } from 'react-router-dom';
