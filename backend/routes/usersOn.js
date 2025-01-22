@@ -38,14 +38,14 @@ const stemmer = natural.PorterStemmer; // To get word stems (e.g., "running" →
 
 const OpenAI = require("openai");
 const openai = new OpenAI({
-  apiKey: "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", // Add your OpenAI API key here
+  apiKey: "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", // Add your OpenAI API key here
 });
 
-const OPENAI_API_KEY = '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';
+const OPENAI_API_KEY = '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';
 
 const { createClient } = require("pexels");
 
-const client = createClient('GFWHPQc8lHEJS9VfLmgMJyXxYwRxFQeEjV6AxNuOML01JW16N0hizyEd');
+const client = createClient('BFWHPQc8lHEJS9VfLmgMJyXxYwRxFQeEjV6AxNuOML01JW16N0hizyEd');
 
 
 // client.videos.search({ query, size, orientation, per_page: 10 }).then((response) => {
