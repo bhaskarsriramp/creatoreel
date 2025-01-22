@@ -1,0 +1,82 @@
+{
+  "name": "audioreel",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@aws-sdk/client-comprehend": "^3.730.0",
+    "@aws-sdk/client-lambda": "^3.726.1",
+    "@aws-sdk/client-s3": "^3.726.1",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@google-ai/generativelanguage": "^2.9.0",
+    "@google-cloud/aiplatform": "^3.34.0",
+    "@google-cloud/storage": "^7.15.0",
+    "@google-cloud/vertexai": "^1.9.2",
+    "@google-cloud/video-intelligence": "^5.3.0",
+    "@mui/icons-material": "^6.3.1",
+    "@mui/material": "^6.3.1",
+    "@mui/styled-engine": "^6.3.1",
+    "@mui/x-date-pickers": "^7.23.6",
+    "@nlpjs/core": "^4.26.1",
+    "@nlpjs/lang-en": "^4.26.1",
+    "@react-oauth/google": "^0.12.1",
+    "@reduxjs/toolkit": "^2.5.0",
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.7.9",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "bull": "^4.16.5",
+    "compute-cosine-similarity": "^1.1.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "cra-template": "1.2.0",
+    "date-fns": "^2.30.0",
+    "dayjs": "^1.11.13",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "ioredis": "^5.4.2",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "mathjs": "^14.0.1",
+    "mongoose": "^8.9.4",
+    "multer": "^1.4.5-lts.1",
+    "natural": "^8.0.1",
+    "nodemon": "^3.1.9",
+    "openai": "^4.78.1",
+    "path": "^0.12.7",
+    "pexels": "^1.4.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "react-router": "^7.1.1",
+    "react-router-dom": "^7.1.1",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^11.0.2",
+    "redux-thunk": "^3.1.0",
+    "web-vitals": "^4.2.4"
+  },
+  "scripts": {
+    "start": "set PORT=4900 && set HTTPS=true&&set SSL_CRT_FILE=C:/Windows/System32/cert.crt&&set SSL_KEY_FILE=C:/Windows/System32/cert.key&&react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
