@@ -48,7 +48,7 @@ export default function Footer() {
 
                 <a href="https://www.youtube.com/channel/UCqp363NhrpKpeGlOK2U-hWA" style={{ textDecoration: 'none' }}><img  className="img-fluid rounded icon-image" src={youtube} alt="youtube-icon" /></a>
                 <a href="https://www.instagram.com/audioreel/" style={{ textDecoration: 'none' }}><img  className="img-fluid rounded icon-image ms-1" src={instagram} alt="instagram-icon" /></a>
-                <a href="https://www.twitter.com" style={{ textDecoration: 'none' }}><img  className="img-fluid rounded icon-image ms-1" src={twitter} alt="twitter-icon" /></a>
+                <a href="https://x.com/audioreel" style={{ textDecoration: 'none' }}><img  className="img-fluid rounded icon-image ms-1" src={twitter} alt="twitter-icon" /></a>
 
                   
                 </li>
