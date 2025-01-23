@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 
 
-function supportContact() {
+function SupportContact() {
 
          useEffect(() => {
               // Ensure dataLayer is defined before calling gtag
@@ -52,4 +52,4 @@ E-Mail ID: support@audioreel.io
   )
 }
 
-export default supportContact
+export default SupportContact
