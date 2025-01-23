@@ -26,7 +26,7 @@ function BodyMain() {
             className="txt-2"
             style={{ color: '#686D76'}}
           >
-            Turn your <span style={{ display: 'inline', color: '#09122C' }}>Audio</span> into stunning <span style={{ display: 'inline', color: '#16C47F' }}>Videos</span>
+            Turn your <span style={{ display: 'inline', color: '#09122C' }}>Audio</span> into stunning <span style={{ display: 'inline', color: '#11009E' }}>Videos</span>
             <br />
             &nbsp;instantly.
           </h1>

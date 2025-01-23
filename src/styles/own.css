@@ -544,13 +544,42 @@ font-family: 'Roboto', sans-serif; */
   }
 
   .pricing-txt-price {
-    font-family: "Poppins";
+    font-family: "Inter";
     font-size: 3rem;
     font-weight: 500;
-    color: #0E21A0;
-    margin-bottom: 15px;
+    color: #09122C;
   }
 
+  .pricing-txt-caption {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    color: grey;
+  }
+
+  .google-api-disclosure-text{
+
+    font-family: "Inter";
+    font-size: 2rem;
+    font-weight: 500;
+    color: #09122C;
+    text-align: center;
+    margin-top: 10rem;
+
+  }
+  .google-api-disclosure-text-desc{
+
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    
+
+  }
 
   .signup-btn-grad {
     background-image: linear-gradient(
@@ -650,6 +679,12 @@ font-family: 'Roboto', sans-serif; */
   font-size: 14px;
   font-weight: 400;
   color: #ffffff;
+}
+
+.pricing-txt-description{
+
+  font-family: "Inter";
+  font-size: 16px;
 }
 
 
@@ -976,6 +1011,11 @@ font-family: 'Roboto', sans-serif; */
 .span-70 {
   color: #7149c6;
   font-weight: 700;
+}
+
+.span-txt-70 {
+  color: blue;
+  font-weight: 500;
 }
 
 #budRes {

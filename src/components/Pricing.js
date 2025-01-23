@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 
 
 function Pricing() {
-  const [isMonthly, setIsMonthly] = useState(false);
+  const [isMonthly, setIsMonthly] = useState(true);
   const navigate = useNavigate();
 
 
@@ -17,7 +17,7 @@ function Pricing() {
   };
 
   const redirectToSignup = () => {
-    navigate(`/signup/brand`);
+    navigate(`/signup`);
    
   };
 
@@ -59,51 +59,58 @@ function Pricing() {
               className={`btn ${isMonthly ? 'price-btn-color-1' : 'price-btn-color-2'} ${isMonthly ? '' : 'active'}`}
               onClick={togglePricing}
             >
-              Annual (2 months free)
+              Annually (Save 40%)
             </button>
           </div>
         </div>
       </div>
 
       <div className="container row mx-auto justify-content-center mb-5">
+
+
         <div className="col-12 col-md-4 col-lg-4 py-3">
           <div className="border border-primary rounded p-3">
             <div className="row text-center">
-              <p><span className="pricing-txt"> Starter</span></p>
-              <p><span className="pricing-txt-price"> {isMonthly ? '$290' : '$29'}</span></p>
+              <p><span className="pricing-txt"> Free</span></p>
+              <p><span className="pricing-txt-description"> To try out our platform and see if it fits your needs.</span></p>
+              <p><span className="pricing-txt-price"> {isMonthly ? '$0' : '$0'}</span></p>
+              <p><span className="pricing-txt-caption">Free forever</span></p>
+              
             </div>
             <div className="features-details">
 
 <div className="bb-txt-3 cussLine">
 <span className="material-icons me-3">all_inclusive</span>
-  <p>Unlimited contacts</p>
+  <p>AI-powered stock video generation</p>
+</div>
+
+<div className="bb-txt-3 cussLine">
+<span className="material-icons me-3">all_inclusive</span>
+  <p>Customizable subtitles</p>
+</div>
+
+
+<div className="bb-txt-3 cussLine">
+<span class="material-icons me-3">all_inclusive</span>
+  <p>1 video per month</p>
 </div>
 
 <div className="bb-txt-3 cussLine">
 <span class="material-icons me-3">all_inclusive</span>
-  <p>Up to 10k emails/month</p>
-</div>
-
-<div className="bb-txt-3 cussLine">
-<span class="material-icons me-3">all_inclusive</span>
-  <p>Drag & drop editor</p>
+  <p>Export quality (HD, 4K)</p>
 </div>
 
 
 <div className="bb-txt-3 cussLine">
 <span class="material-icons me-3">bar_chart</span>
-  <p>Real time analytics</p>
+  <p>Watermarked video exports</p>
 </div>
 
 <div className="bb-txt-3 cussLine">
 <span class="material-icons me-3">description</span>
-  <p>Smart Sending</p>
+  <p>Priority Customer Support</p>
 </div>
 
-<div className="bb-txt-3 cussLine">
-<span class="material-icons me-3">query_stats</span>
-  <p>Advanced segmentation</p>
-</div>
 
 </div>
             <div className="container my-4 mx-auto d-flex justify-content-center">
@@ -116,59 +123,95 @@ function Pricing() {
           <div className="border border-primary rounded p-3">
             <div className="row text-center">
               <p><span className="pricing-txt"> Start Up</span></p>
-              <p><span className="pricing-txt-price"> {isMonthly ? '$1390' : '$139'}</span></p>
+              <p><span className="pricing-txt-description">For individual creators with minimal videos per month.</span></p>
+
+              <p><span className="pricing-txt-price"> {isMonthly ? '$25' : '$29'}</span></p>
+              <p><span className="pricing-txt-caption"> {isMonthly ? 'USD • Per month • Billed annually' : 'USD • Per month • Billed monthly'}</span></p>
+            
             </div>
             <div className="features-details">
 
             <div className="bb-txt-3 cussLine">
 <span className="material-icons me-3">all_inclusive</span>
-  <p>Unlimited contacts</p>
+  <p>AI-powered stock video generation</p>
+</div>
+
+<div className="bb-txt-3 cussLine">
+<span className="material-icons me-3">all_inclusive</span>
+  <p>Customizable subtitles</p>
+</div>
+
+
+<div className="bb-txt-3 cussLine">
+<span class="material-icons me-3">all_inclusive</span>
+  <p>12 videos per month</p>
 </div>
 
 <div className="bb-txt-3 cussLine">
 <span class="material-icons me-3">all_inclusive</span>
-  <p>Up to 50k emails/month</p>
-</div>
-
-<div className="bb-txt-3 cussLine">
-<span class="material-icons me-3">all_inclusive</span>
-  <p>Drag & drop editor</p>
+  <p>Export quality (HD, 4K)</p>
 </div>
 
 
 <div className="bb-txt-3 cussLine">
 <span class="material-icons me-3">bar_chart</span>
-  <p>Real time analytics</p>
+  <p>Watermark-free video exports</p>
 </div>
 
 <div className="bb-txt-3 cussLine">
 <span class="material-icons me-3">description</span>
-  <p>Smart Sending</p>
+  <p>Priority Customer Support</p>
+</div>
+
+</div>
+            <div className="container my-4 mx-auto d-flex justify-content-center">
+              <button className="btn signup-btn-grad btn-g-fonts text-white" onClick={redirectToSignup}>Get Started</button>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-12 col-md-4 col-lg-4 py-3">
+          <div className="border border-primary rounded p-3">
+            <div className="row text-center">
+              <p><span className="pricing-txt"> Advanced</span></p>
+              <p><span className="pricing-txt-description">For professionals creators and teams with large video generation needs.</span></p>
+
+              <p><span className="pricing-txt-price"> {isMonthly ? '$45' : '$49'}</span></p>
+              <p><span className="pricing-txt-caption"> {isMonthly ? 'USD • Per month • Billed annually' : 'USD • Per month • Billed monthly'}</span></p>
+
+            </div>
+            <div className="features-details">
+
+            <div className="bb-txt-3 cussLine">
+<span className="material-icons me-3">all_inclusive</span>
+  <p>AI-powered stock video generation</p>
 </div>
 
 <div className="bb-txt-3 cussLine">
-<span class="material-icons me-3">query_stats</span>
-  <p>Advanced segmentation</p>
+<span className="material-icons me-3">all_inclusive</span>
+  <p>Customizable subtitles</p>
+</div>
+
+
+<div className="bb-txt-3 cussLine">
+<span class="material-icons me-3">all_inclusive</span>
+  <p>30 videos per month</p>
 </div>
 
 <div className="bb-txt-3 cussLine">
-  <span class="material-icons me-3">link</span>
-    <p>Retargeting</p>
-  </div>
+<span class="material-icons me-3">all_inclusive</span>
+  <p>Export quality (HD, 4K)</p>
+</div>
+
 
 <div className="bb-txt-3 cussLine">
-<span class="material-icons me-3">sell</span>
-  <p>Demographic data</p>
+<span class="material-icons me-3">bar_chart</span>
+  <p>Watermark-free video exports</p>
 </div>
 
 <div className="bb-txt-3 cussLine">
-<span class="material-icons me-3">share</span>
-  <p>IP warm-up</p>
-</div>
-
-<div className="bb-txt-3 cussLine">
-<span class="material-icons me-3">language</span>
-  <p>IP rotation</p>
+<span class="material-icons me-3">description</span>
+  <p>Priority Customer Support</p>
 </div>
 
 </div>
@@ -179,27 +222,6 @@ function Pricing() {
         </div>
 
 
-        <div className="col-12 col-md-4 col-lg-4 py-3">
-          <div className="border border-primary rounded p-3">
-            <div className="row text-center">
-              <p><span className="pricing-txt"> Custom Pricing</span></p>
-              {/* <p><span className="pricing-txt-price"> Unlimited</span></p> */}
-              <p>Businesses with over 100K emails per month.</p>
-            </div>
-       
-            <div className="container my-2 mx-auto d-flex justify-content-center">
-              <button className="btn signup-btn-grad btn-g-fonts text-white">support@linck.one</button>
-               {/* <Button
-              variant="outlined"
-              color="secondary"
-              startIcon={<MailOutlineIcon />}
-              style={{marginLeft: '16px', textTransform: 'lowercase'}}
-            >
-              support@linck.one
-            </Button> */}
-            </div>
-          </div>
-        </div>
 
       </div>
 

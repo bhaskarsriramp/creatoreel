@@ -20,6 +20,8 @@ import ContactUs from './components/ContactUs';
 import ProfileSettings from './components/Brand/Profile';
 import AccountDetails from './components/Brand/AccountDetails';
 import Mp3Uploader from './components/Brand/UploadMp3File';
+import GoogleApiDisclosure from './components/GoogleApiDisclosure';
+import OpenApiDisclosure from './components/OpenApiDisclosure';
 
 
 
@@ -42,12 +44,14 @@ function App() {
            <Route path="/forgotPassword" element={<ForgotPassword/>}/>
            <Route path="/pricing" element={<Pricing/>}/>
            <Route path="/terms" element={<Terms/>}/>
-           <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
-           <Route path="/cancellation-refund" element={<CancellationRefund/>}/>
-           <Route path="/shipping-policy" element={<ShippingPolicy/>}/>
+           <Route path="/privacy_policy" element={<PrivacyPolicy/>}/>
+           <Route path="/cancellation_refund" element={<CancellationRefund/>}/>
+           <Route path="/shipping_policy" element={<ShippingPolicy/>}/>
            <Route path="/contact" element={<ContactUs/>}/>
            <Route path="/profile" element={<ProfileSettings/>}/>
            <Route path="/uploadMp3" element={<Mp3Uploader/>}/>
+           <Route path="/google_api_disclosure" element={<GoogleApiDisclosure/>}/>
+           <Route path="/open_api_disclosure" element={<OpenApiDisclosure/>}/>
 
        
 

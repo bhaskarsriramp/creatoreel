@@ -14,11 +14,11 @@ export default function Footer() {
             <ul>
                 <li className="footer-head-text">Company</li>
                 <li className="footer-content-text"><a href="/pricing" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Pricing</a></li>
-                <li className="footer-content-text"><a href="/careers" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Careers</a></li>
+                {/* <li className="footer-content-text"><a href="/careers" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Careers</a></li> */}
                 <li className="footer-content-text"><a href="/sitemap.xml" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Sitemap</a></li>
-                <li className="footer-content-text"><a href="/open-api-disclosure" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Open API Disclosure</a></li>
-                <li className="footer-content-text"><a href="/google-api-disclosure" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Google API Disclosure</a></li>
-                <li className="footer-content-text"><a href="/security" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Security</a></li>
+                <li className="footer-content-text"><a href="/open_api_disclosure" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Open API Disclosure</a></li>
+                <li className="footer-content-text"><a href="/google_api_disclosure" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Google API Disclosure</a></li>
+                {/* <li className="footer-content-text"><a href="/security" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Security</a></li> */}
                 
 
                
@@ -34,9 +34,9 @@ export default function Footer() {
               <ul>
                 <li className="footer-head-text">Useful</li>
                 <li className="footer-content-text"><a href="/terms" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Terms & Conditions</a></li>
-                <li className="footer-content-text"><a href="/privacy-policy" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Privacy Policy</a></li>
-                <li className="footer-content-text"><a href="/cancellation-refund" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Cancellation & Refund</a></li>
-                <li className="footer-content-text"><a href="/shipping-policy" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Shipping Policy</a></li>
+                <li className="footer-content-text"><a href="/privacy_policy" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Privacy Policy</a></li>
+                <li className="footer-content-text"><a href="/cancellation_refund" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Cancellation & Refund</a></li>
+                <li className="footer-content-text"><a href="/shipping_policy" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Shipping Policy</a></li>
                 <li className="footer-content-text"><a href="/contact" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Contact Us</a></li>
                 {/* <li className="footer-content-text"><Link to="/sitemap.xml" className="footer-subhead-decoration">Sitemap</Link></li> */}
 
