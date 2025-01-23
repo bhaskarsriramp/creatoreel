@@ -1,9 +1,7 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import instagram from "../images/instagram_2111463.png"
 import youtube from "../images/youtube_3991722.png"
 import twitter from "../images/twitter_3256013.png"
-import linkedin from "../images/linkedin_3992606.png"
 
 export default function Footer() {
   return (
@@ -15,12 +13,12 @@ export default function Footer() {
             <div className="div">
             <ul>
                 <li className="footer-head-text">Company</li>
-                <li className="footer-content-text"><Link to="/pricing" className="footer-subhead-decoration">Pricing</Link></li>
-                <li className="footer-content-text"><Link to="/careers" className="footer-subhead-decoration">Careers</Link></li>
-                <li className="footer-content-text"><Link to="/sitemap.xml" className="footer-subhead-decoration">Sitemap</Link></li>
-                <li className="footer-content-text"><Link to="/open-api-disclosure" className="footer-subhead-decoration">Open API Disclosure</Link></li>
-                <li className="footer-content-text"><Link to="/google-api-disclosure" className="footer-subhead-decoration">Google API Disclosure</Link></li>
-                <li className="footer-content-text"><Link to="/security" className="footer-subhead-decoration">Security</Link></li>
+                <li className="footer-content-text"><a href="/pricing" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Pricing</a></li>
+                <li className="footer-content-text"><a href="/careers" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Careers</a></li>
+                <li className="footer-content-text"><a href="/sitemap.xml" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Sitemap</a></li>
+                <li className="footer-content-text"><a href="/open-api-disclosure" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Open API Disclosure</a></li>
+                <li className="footer-content-text"><a href="/google-api-disclosure" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Google API Disclosure</a></li>
+                <li className="footer-content-text"><a href="/security" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Security</a></li>
                 
 
                
@@ -35,11 +33,11 @@ export default function Footer() {
                 
               <ul>
                 <li className="footer-head-text">Useful</li>
-                <li className="footer-content-text"><Link to="/terms" className="footer-subhead-decoration">Terms & Conditions</Link></li>
-                <li className="footer-content-text"><Link to="/privacy-policy" className="footer-subhead-decoration">Privacy Policy</Link></li>
-                <li className="footer-content-text"><Link to="/cancellation-refund" className="footer-subhead-decoration">Cancellation & Refund</Link></li>
-                <li className="footer-content-text"><Link to="/shipping-policy" className="footer-subhead-decoration">Shipping Policy</Link></li>
-                <li className="footer-content-text"><Link to="/contact" className="footer-subhead-decoration">Contact Us</Link></li>
+                <li className="footer-content-text"><a href="/terms" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Terms & Conditions</a></li>
+                <li className="footer-content-text"><a href="/privacy-policy" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Privacy Policy</a></li>
+                <li className="footer-content-text"><a href="/cancellation-refund" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Cancellation & Refund</a></li>
+                <li className="footer-content-text"><a href="/shipping-policy" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Shipping Policy</a></li>
+                <li className="footer-content-text"><a href="/contact" style={{ textDecoration : 'none'}} className="footer-subhead-decoration">Contact Us</a></li>
                 {/* <li className="footer-content-text"><Link to="/sitemap.xml" className="footer-subhead-decoration">Sitemap</Link></li> */}
 
 
@@ -47,10 +45,10 @@ export default function Footer() {
                   Follow us 
                 </li>
                 <li className="footer-content-text my-1">
-  
-                  <Link href="https://www.youtube.com"><a><img  className="img-fluid rounded icon-image" src={youtube} alt="youtube-icon" /></a></Link>
-                  <Link href="https://www.instagram.com/broadreach.in/"><a><img  className="img-fluid rounded icon-image ms-1" src={instagram} alt="instagram-icon" /></a></Link>
-                  <Link href="https://www.twitter.com"><a><img  className="img-fluid rounded icon-image ms-1" src={twitter} alt="twitter-icon" /></a></Link>
+
+                <a href="https://www.youtube.com/channel/UCqp363NhrpKpeGlOK2U-hWA" style={{ textDecoration: 'none' }}><img  className="img-fluid rounded icon-image" src={youtube} alt="youtube-icon" /></a>
+                <a href="https://www.instagram.com/audioreel/" style={{ textDecoration: 'none' }}><img  className="img-fluid rounded icon-image ms-1" src={instagram} alt="instagram-icon" /></a>
+                <a href="https://www.twitter.com" style={{ textDecoration: 'none' }}><img  className="img-fluid rounded icon-image ms-1" src={twitter} alt="twitter-icon" /></a>
 
                   
                 </li>
