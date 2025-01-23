@@ -6,6 +6,13 @@ import Footer from './Footer'
 function privacyPolicy() {
   return (
    <>
+
+      <header>
+        <title>Privacy Policy | Audioreel</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </header>
+
    <Navbar />
 
 
@@ -73,7 +80,7 @@ You may choose to restrict the collection or use of your personal information in
 
 whenever you are asked to fill in a form on the website, look for the box that you can click to indicate that you do not want the information to be used by anybody for direct marketing purposes
 
-if you have previously agreed to us using your personal information for direct marketing purposes, you may change your mind at any time by writing to or emailing us at support@inboxe.in
+if you have previously agreed to us using your personal information for direct marketing purposes, you may change your mind at any time by writing to or emailing us at support@audioreel.io
 
 We will not sell, distribute or lease your personal information to third parties unless we have your permission or are required by law to do so. We may use your personal information to send you promotional information about third parties which we think you may find interesting if you tell us that you wish this to happen.
       </p>

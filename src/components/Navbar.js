@@ -43,8 +43,6 @@ export default function Navbar() {
                     {/* Brand/Logo */}
                     <Typography
                         variant="h6"
-                        component={Link}
-                        to="/"
                         sx={{
                             flexGrow: 1,
                             textDecoration: 'none',
@@ -54,9 +52,11 @@ export default function Navbar() {
                             fontWeight: 500,
                         }}
                     >
-                  <Link href="/"><a><img  className="img-fluid rounded icon-image-logo" src={logo} alt="audioreel" /></a></Link>
-                       
+                        <a href="/" style={{ textDecoration: 'none' }}>
+                            <img className="img-fluid rounded icon-image-logo" src={logo} alt="audioreel" />
+                        </a>
                     </Typography>
+
 
                     {/* Menu/Close Icon for Mobile */}
                     <Hidden mdUp>
@@ -65,7 +65,7 @@ export default function Navbar() {
                             color="inherit"
                             onClick={toggleMenu}
                         >
-          <Button variant='outlined' color="info" sx={{ paddingX : '44px', height : '38px', textTransform : 'none'}}>Login</Button>
+          <Button variant='outlined' color="info"   onClick={() => navigate('/login')} sx={{ paddingX : '44px', height : '38px', textTransform : 'none'}}>Login</Button>
 
                         </IconButton>
                     </Hidden>
@@ -82,8 +82,8 @@ export default function Navbar() {
         </List> */}
 
         <Stack sx={{ display : 'flex', flexDirection : 'row', alignItems : 'center', marginRight : '80px'}}>
-          <Button variant='outlined' color="info" sx={{ paddingX : '66px', height : '44px', textTransform : 'none'}}>Login</Button>
-          <Button variant='contained' color="primary" sx={{ paddingX : '66px', height : '44px', marginLeft : '12px', textTransform : 'none', whiteSpace: 'nowrap'}}>Sign up</Button>
+          <Button variant='outlined' color="info"   onClick={() => navigate('/login')} sx={{ paddingX : '66px', height : '44px', textTransform : 'none'}}>Login</Button>
+          <Button variant='contained' color="primary"   onClick={() => navigate('/signup')} sx={{ paddingX : '66px', height : '44px', marginLeft : '12px', textTransform : 'none', whiteSpace: 'nowrap'}}>Sign up</Button>
         </Stack>
 
     </Box>

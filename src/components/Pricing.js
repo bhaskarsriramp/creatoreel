@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import { useNavigate } from "react-router-dom";
@@ -21,14 +21,25 @@ function Pricing() {
    
   };
 
+    useEffect(() => {
+      // Ensure dataLayer is defined before calling gtag
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-D1X0WBG5EL');
+    }, []);
+
   return (
     <>
       <header>
-        <title>Pricing: linck</title>
+        <title>Pricing and Rates | Audioreel</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Checkout the prices and rates for Audioreel." />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-D1X0WBG5EL"></script>
+
         <link rel="icon" href="/favicon.ico" />
-        <meta name="google-site-verification" content="HvvX1gisMdTNXS66CRCrbZTdRWr_q-P5JXjMDhwP3_4" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-D0SY7XGY0L"></script>
       </header>
 
       <Navbar />

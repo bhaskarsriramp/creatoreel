@@ -15,11 +15,11 @@ export default function Footer() {
             <div className="div">
             <ul>
                 <li className="footer-head-text">Company</li>
-                <li className="footer-content-text"><Link to="/terms" className="footer-subhead-decoration">Pricing</Link></li>
-                <li className="footer-content-text"><Link to="/privacy-policy" className="footer-subhead-decoration">Careers</Link></li>
-                <li className="footer-content-text"><Link to="/cancellation-refund" className="footer-subhead-decoration">Sitemap</Link></li>
-                <li className="footer-content-text"><Link to="/shipping-policy" className="footer-subhead-decoration">Open API Disclosure</Link></li>
-                <li className="footer-content-text"><Link to="/contact" className="footer-subhead-decoration">Google API Disclosure</Link></li>
+                <li className="footer-content-text"><Link to="/pricing" className="footer-subhead-decoration">Pricing</Link></li>
+                <li className="footer-content-text"><Link to="/careers" className="footer-subhead-decoration">Careers</Link></li>
+                <li className="footer-content-text"><Link to="/sitemap.xml" className="footer-subhead-decoration">Sitemap</Link></li>
+                <li className="footer-content-text"><Link to="/open-api-disclosure" className="footer-subhead-decoration">Open API Disclosure</Link></li>
+                <li className="footer-content-text"><Link to="/google-api-disclosure" className="footer-subhead-decoration">Google API Disclosure</Link></li>
                 <li className="footer-content-text"><Link to="/security" className="footer-subhead-decoration">Security</Link></li>
                 
 
@@ -51,7 +51,6 @@ export default function Footer() {
                   <Link href="https://www.youtube.com"><a><img  className="img-fluid rounded icon-image" src={youtube} alt="youtube-icon" /></a></Link>
                   <Link href="https://www.instagram.com/broadreach.in/"><a><img  className="img-fluid rounded icon-image ms-1" src={instagram} alt="instagram-icon" /></a></Link>
                   <Link href="https://www.twitter.com"><a><img  className="img-fluid rounded icon-image ms-1" src={twitter} alt="twitter-icon" /></a></Link>
-                  <Link to="https://www.linkedin.com/company/linck-one/"><a><img  className="img-fluid rounded icon-image ms-1" src={linkedin} alt="linkedin-icon"/></a></Link>
 
                   
                 </li>

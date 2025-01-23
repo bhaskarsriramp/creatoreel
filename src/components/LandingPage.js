@@ -1,4 +1,5 @@
 // import Head from 'next/head'
+import React, { useEffect } from 'react';
 import Navbar from '../components/Navbar'
 import BodyMain from '../components/BodyMain'
 import Accordian from '../components/Accordian'
@@ -8,6 +9,17 @@ import { Helmet } from "react-helmet";
 // import Script from 'next/script'
 
 export default function LandingPage() {
+
+
+  useEffect(() => {
+    // Ensure dataLayer is defined before calling gtag
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-D1X0WBG5EL');
+  }, []);
 
   return (
     
@@ -35,6 +47,8 @@ export default function LandingPage() {
         <meta property="og:type" content="website" />
         <link rel="canonical" href="https://www.audioreel.io" />
         <meta name="google-site-verification" content="Y8Lu6AhM03esRTZg_PR1fnHPfEv-QVz70Px3WMg2boc" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-D1X0WBG5EL"></script>
+      
       </Helmet>
 
 

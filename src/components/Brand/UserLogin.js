@@ -96,7 +96,7 @@ function BrandLogin() {
 
   const signupButton = async () => {
 
-    navigate("/signup/brand");
+    navigate("/signup");
     
 
   }
