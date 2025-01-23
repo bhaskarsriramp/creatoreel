@@ -54,6 +54,7 @@
     "react-scripts": "5.0.1",
     "react-toastify": "^11.0.2",
     "redux-thunk": "^3.1.0",
+    "styled-components": "^6.1.14",
     "web-vitals": "^4.2.4"
   },
   "scripts": {

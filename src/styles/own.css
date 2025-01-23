@@ -577,8 +577,6 @@ font-family: 'Roboto', sans-serif; */
     padding-right: 20%;
     margin-top: 2rem;
     margin-bottom: 10rem;
-    
-
   }
 
   .signup-btn-grad {
@@ -691,6 +689,35 @@ font-family: 'Roboto', sans-serif; */
 
 /* Mobile Device*/
 @media (max-width: 576px) {
+
+  .pricing-txt-caption {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    color: grey;
+  }
+
+  .google-api-disclosure-text{
+
+    font-family: "Inter";
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #09122C;
+    text-align: center;
+    margin-top: 10rem;
+
+  }
+  .google-api-disclosure-text-desc{
+
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+  }
 
 
   .icon-image{

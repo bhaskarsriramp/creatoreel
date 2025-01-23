@@ -80,34 +80,34 @@ function Pricing() {
             <div className="features-details">
 
 <div className="bb-txt-3 cussLine">
-<span className="material-icons me-3">all_inclusive</span>
+<span className="material-icons me-3">switch_video</span>
   <p>AI-powered stock video generation</p>
 </div>
 
 <div className="bb-txt-3 cussLine">
-<span className="material-icons me-3">all_inclusive</span>
+<span className="material-icons me-3">list_alt</span>
   <p>Customizable subtitles</p>
 </div>
 
 
 <div className="bb-txt-3 cussLine">
-<span class="material-icons me-3">all_inclusive</span>
+<span class="material-icons me-3">play_circle</span>
   <p>1 video per month</p>
 </div>
 
 <div className="bb-txt-3 cussLine">
-<span class="material-icons me-3">all_inclusive</span>
+<span class="material-icons me-3">ios_share</span>
   <p>Export quality (HD, 4K)</p>
 </div>
 
 
 <div className="bb-txt-3 cussLine">
-<span class="material-icons me-3">bar_chart</span>
+<span class="material-icons me-3">water_drop</span>
   <p>Watermarked video exports</p>
 </div>
 
 <div className="bb-txt-3 cussLine">
-<span class="material-icons me-3">description</span>
+<span class="material-icons me-3">support_agent</span>
   <p>Priority Customer Support</p>
 </div>
 
@@ -132,34 +132,34 @@ function Pricing() {
             <div className="features-details">
 
             <div className="bb-txt-3 cussLine">
-<span className="material-icons me-3">all_inclusive</span>
+<span className="material-icons me-3">switch_video</span>
   <p>AI-powered stock video generation</p>
 </div>
 
 <div className="bb-txt-3 cussLine">
-<span className="material-icons me-3">all_inclusive</span>
+<span className="material-icons me-3">list_alt</span>
   <p>Customizable subtitles</p>
 </div>
 
 
 <div className="bb-txt-3 cussLine">
-<span class="material-icons me-3">all_inclusive</span>
+<span class="material-icons me-3">play_circle</span>
   <p>12 videos per month</p>
 </div>
 
 <div className="bb-txt-3 cussLine">
-<span class="material-icons me-3">all_inclusive</span>
+<span class="material-icons me-3">ios_share</span>
   <p>Export quality (HD, 4K)</p>
 </div>
 
 
 <div className="bb-txt-3 cussLine">
-<span class="material-icons me-3">bar_chart</span>
+<span class="material-icons me-3">water_drop</span>
   <p>Watermark-free video exports</p>
 </div>
 
 <div className="bb-txt-3 cussLine">
-<span class="material-icons me-3">description</span>
+<span class="material-icons me-3">support_agent</span>
   <p>Priority Customer Support</p>
 </div>
 
@@ -183,34 +183,34 @@ function Pricing() {
             <div className="features-details">
 
             <div className="bb-txt-3 cussLine">
-<span className="material-icons me-3">all_inclusive</span>
+<span className="material-icons me-3">switch_video</span>
   <p>AI-powered stock video generation</p>
 </div>
 
 <div className="bb-txt-3 cussLine">
-<span className="material-icons me-3">all_inclusive</span>
+<span className="material-icons me-3">list_alt</span>
   <p>Customizable subtitles</p>
 </div>
 
 
 <div className="bb-txt-3 cussLine">
-<span class="material-icons me-3">all_inclusive</span>
+<span class="material-icons me-3">play_circle</span>
   <p>30 videos per month</p>
 </div>
 
 <div className="bb-txt-3 cussLine">
-<span class="material-icons me-3">all_inclusive</span>
+<span class="material-icons me-3">ios_share</span>
   <p>Export quality (HD, 4K)</p>
 </div>
 
 
 <div className="bb-txt-3 cussLine">
-<span class="material-icons me-3">bar_chart</span>
+<span class="material-icons me-3">water_drop</span>
   <p>Watermark-free video exports</p>
 </div>
 
 <div className="bb-txt-3 cussLine">
-<span class="material-icons me-3">description</span>
+<span class="material-icons me-3">support_agent</span>
   <p>Priority Customer Support</p>
 </div>
 

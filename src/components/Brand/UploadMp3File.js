@@ -12,6 +12,8 @@ function Mp3Uploader() {
 
   const handleUpload = async (event) => {
     event.preventDefault();
+
+    // <AudioLoaderAnimation />
     if (!selectedFile) {
       alert('Please select a file first!');
       return;

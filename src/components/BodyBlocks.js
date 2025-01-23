@@ -288,7 +288,7 @@ function BodyBlocks() {
             <div className="container mx-auto h2 pt-2">Pick the plan that best suits your requirements.</div>
             <div className="container mx-auto row pt-2 pb-4">Save 4+ hours on video editing every day.</div>
             <div className="container mx-auto "> <div className="col-md-12 col-12">
-            <Link to="/pricing" style={{textDecoration: 'none'}}><button className="btn signup-btn-grad-2 btn-g-fonts">View Plans</button></Link>
+            <a href="/pricing" style={{textDecoration: 'none'}}><button className="btn signup-btn-grad-2 btn-g-fonts">View Plans</button></a>
 
           </div></div>
             </div>
