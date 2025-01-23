@@ -13,6 +13,15 @@ app.use(express.json());
 // app.use(userAgent.express());
 app.use(bodyParser.urlencoded({extended: true, limit:"50mb"}));
 
+// const corsOptions = {
+//   origin: 'https://localhost:4900',
+//   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+//   credentials: true,
+//   optionSuccessStatus: 200,
+// };
+
+// app.use(cors(corsOptions));
+
 const corsOptions = {
   origin: '*',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
@@ -30,8 +39,6 @@ app.use((req, res, next) => {
   res.header('Access-Control-Allow-Credentials', 'true');
   next();
 });
-
-app.use(cors(corsOptions));
 
 
 

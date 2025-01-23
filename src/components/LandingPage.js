@@ -4,6 +4,7 @@ import BodyMain from '../components/BodyMain'
 import Accordian from '../components/Accordian'
 import Footer from '../components/Footer'
 import BodyBlocks from '../components/BodyBlocks'
+import { Helmet } from "react-helmet";
 // import Script from 'next/script'
 
 export default function LandingPage() {
@@ -25,6 +26,18 @@ export default function LandingPage() {
        
         
       </Head> */}
+
+        <Helmet>
+        <title>Turn Audio into Stunning Videos | AudioReel</title>
+        <meta name="description" content="Transform your audio into stunning videos with AI-powered tools. Perfect for creators, speakers, and audiobooks. Create professional videos instantly!" />
+        <meta property="og:title" content="Turn Audio into Stunning Videos | AudioReel" />
+        <meta property="og:description" content="Transform your audio into stunning videos with AI-powered tools. Perfect for creators, speakers, and audiobooks. Create professional videos instantly!" />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href="https://www.audioreel.io" />
+        <meta name="google-site-verification" content="Y8Lu6AhM03esRTZg_PR1fnHPfEv-QVz70Px3WMg2boc" />
+      </Helmet>
+
+
       <Navbar />
       <BodyMain />
       <BodyBlocks />

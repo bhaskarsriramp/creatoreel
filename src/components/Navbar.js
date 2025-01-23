@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { deepOrange, blue, indigo, green, purple, brown } from '@mui/material/colors';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useNavigate } from "react-router-dom";
+import logo from '../images/audioreel-logo.png'
 
 const theme = createTheme({
     palette: {
@@ -53,7 +54,8 @@ export default function Navbar() {
                             fontWeight: 500,
                         }}
                     >
-                        Audio<span style={{ color: '#16C47F' }}>reel</span>
+                  <Link href="/"><a><img  className="img-fluid rounded icon-image-logo" src={logo} alt="audioreel" /></a></Link>
+                       
                     </Typography>
 
                     {/* Menu/Close Icon for Mobile */}

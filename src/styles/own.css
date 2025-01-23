@@ -275,6 +275,13 @@ font-family: 'Roboto', sans-serif; */
 
   }
 
+  .icon-image-logo{
+    object-fit: contain;
+    width: 160px;
+    height: 60px;
+
+  }
+
 
 .footer-box{
 
@@ -467,11 +474,7 @@ font-family: 'Roboto', sans-serif; */
     padding-left: 66px;
     padding-right: 46px;
   }
-  .txt-1 {
-    font-family: "Poppins";
-    font-size: 2rem;
-    margin-top: 6rem;
-  }
+
 
   .custom-drop-width{
     width:20rem;
@@ -491,29 +494,11 @@ font-family: 'Roboto', sans-serif; */
 
   }
 
-  .img-1 {
-    margin-top: 3rem;
-  }
-
-
-  .inf-txt-1 {
-    font-family: "Poppins";
-    font-size: 60px;
-    font-weight: 700;
-    color: #2f2e2e;
-    margin-top: 10px;
-    padding-bottom: 30px;
-    
-  }
 
   .txt-1 {
     font-family: "Inter";
     font-size: 2.5rem;
     margin-top: 4rem;
-  }
-
-  .custom-drop-width{
-    width:20rem;
   }
 
 
@@ -566,54 +551,6 @@ font-family: 'Roboto', sans-serif; */
     margin-bottom: 15px;
   }
 
-
-  .bb-txt-1 {
-    font-family: "Poppins";
-    font-size: 32px;
-    font-weight: 500;
-    color: #2f2e2e;
-    margin-top: 10px;
-    margin-bottom: 15px;
-  }
-
-  
-  .bb-txt-2 {
-    font-family: "Inter";
-    font-size: 1.2rem;
-    font-weight: 400;
-    color: #2f2e2e;
-    margin-bottom: 25px;
-    line-height: 28px;
-  }
-
-  .bb-txt-3 {
-    font-family: "Inter";
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: #2f2e2e;
-  }
-  .bb-txt-4 {
-    font-family: "Inter";
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: #2f2e2e;
-  }
-  .bb-txt-5 {
-    font-family: "Inter";
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: #2f2e2e;
-  }
-
-  .inf-txt-1 {
-    font-family: "Inter";
-    font-size: 60px;
-    font-weight: 700;
-    color: #2f2e2e;
-    margin-top: 10px;
-    padding-bottom: 30px;
-    
-  }
 
   .signup-btn-grad {
     background-image: linear-gradient(
@@ -699,110 +636,6 @@ font-family: 'Roboto', sans-serif; */
     
   }
 
-  .creator-underline-marketer {
-    padding-bottom: 1px;
-    position: relative;
-    text-decoration: none;
-    font-weight: 600;
-    font-family: 'Inter';
-    font-size: 60px;
-  }
-
-  .creator-underline-marketer::after {
-    background: #ff2340;
-    background: linear-gradient(
-      to right,
-      transparent 0%,
-      #ff0e1a 50%,
-      transparent 100%
-    );
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 2px;
-    width: 100%;
-  }
-
-  .row-center {
-    display: flex;
-    align-items: center;
-  }
-  
-  .right-arrow-1 {
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 15px solid #0056f5; /* Adjust color as needed */
-    margin-right: 10px;
-  }
-  
-  .right-arrow-2 {
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 15px solid #8b00d0; /* Adjust color as needed */
-    margin-right: 10px;
-  }
-  
-  .right-arrow-3 {
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 15px solid #78b13f; /* Adjust color as needed */
-    margin-right: 10px;
-  }
-
-  .dot-1 {
-    width: 10px;
-    height: 10px;
-    background-color: #0056f5; /* Adjust color as needed */
-    border-radius: 50%;
-    margin-right: 10px;
-
-  }
-
-  .dot-2 {
-    width: 10px;
-    height: 10px;
-    background-color: #8b00d0; /* Adjust color as needed */
-    border-radius: 50%;
-    margin-right: 10px;
-
-  }
-
-  .dot-3 {
-    width: 10px;
-    height: 10px;
-    background-color: #78b13f; /* Adjust color as needed */
-    border-radius: 50%;
-    margin-right: 10px;
-
-  }
-
-  .just-arrow-1 {
-    margin-right: 10px;
-    display: inline-block;
-    color: #0056f5; /* Adjust color as needed */
-    font-size: 22px; /* Adjust font size as needed */
-  }
-
-  .just-arrow-2 {
-    margin-right: 10px;
-    display: inline-block;
-    color: #8b00d0; /* Adjust color as needed */
-    font-size: 22px; /* Adjust font size as needed */
-  }
-
-  .just-arrow-3 {
-    margin-right: 10px;
-    display: inline-block;
-    color: #78b13f; /* Adjust color as needed */
-    font-size: 22px; /* Adjust font size as needed */
-  }
  
 }
 
@@ -829,6 +662,13 @@ font-family: 'Roboto', sans-serif; */
     object-fit: contain;
     width: 30px;
     height: 30px;
+
+  }
+
+  .icon-image-logo{
+    object-fit: contain;
+    width: 140px;
+    height: 80px;
 
   }
 
@@ -893,15 +733,6 @@ font-family: 'Roboto', sans-serif; */
     margin-top: 1rem;
 
   }
-
-  /* .features-blocks{
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left: 1rem;
-
-  } */
 
   .features-blocks-indi{
 
@@ -1029,98 +860,7 @@ font-family: 'Roboto', sans-serif; */
     padding-right: 5rem;
   
   }
-
-  .row-center {
-    display: flex;
-    align-items: center; /* Align items vertically in the center */
-  }
   
-  .right-arrow-1 {
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 15px solid #0056f5; /* Adjust color as needed */
-    margin-right: 10px;
-    align-self: flex-start;
-  }
-  
-  .right-arrow-2 {
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 15px solid #8b00d0; /* Adjust color as needed */
-    margin-right: 10px;
-    align-self: flex-start;
-  }
-  
-  .right-arrow-3 {
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 15px solid #78b13f; /* Adjust color as needed */
-    margin-right: 10px;
-    align-self: flex-start;
-  }
-
-  .dot-1 {
-    width: 20px;
-    height: 15px;
-    background-color: #0056f5; /* Adjust color as needed */
-    border-radius: 100%;
-    margin-right: 10px;
-    align-self: flex-start;
-    margin-top: 6px;
-
-  }
-
-  .dot-2 {
-    width: 20px;
-    height: 14px;
-    background-color: #8b00d0; /* Adjust color as needed */
-    border-radius: 100%;
-    margin-right: 10px;
-    align-self: flex-start;
-    margin-top: 6px;
-  }
-
-  .dot-3 {
-    width: 20px;
-    height: 13px;
-    background-color: #78b13f; /* Adjust color as needed */
-    border-radius: 100%;
-    margin-right: 10px;
-    align-self: flex-start;
-    margin-top: 6px;
-
-
-  }
-
-  .just-arrow-1 {
-    margin-right: 10px;
-    align-self: flex-start;
-    display: inline-block;
-    color: #0056f5; /* Adjust color as needed */
-    font-size: 22px; /* Adjust font size as needed */
-  }
-
-  .just-arrow-2 {
-    margin-right: 10px;
-    align-self: flex-start;
-    display: inline-block;
-    color: #8b00d0; /* Adjust color as needed */
-    font-size: 22px; /* Adjust font size as needed */
-  }
-
-  .just-arrow-3 {
-    margin-right: 10px;
-    align-self: flex-start;
-    display: inline-block;
-    color: #78b13f; /* Adjust color as needed */
-    font-size: 22px; /* Adjust font size as needed */
-  }
 
   .txt-1 {
     font-family: "Poppins";
@@ -1179,77 +919,6 @@ font-family: 'Roboto', sans-serif; */
     margin-bottom: 15px;
   }
 
-  .img-1 {
-    margin-top: 1rem;
-  }
-
-  .img-1 {
-    margin-top: 1rem;
-  }
-
-  .btn-container {
-    margin-top: 2.5rem;
-    margin-bottom: 2rem;
-  }
-
-  .bb-txt-1 {
-    font-family: "Inter";
-    font-size: 22px;
-    font-weight: 700;
-    color: #2f2e2e;
-    margin-top: 10px;
-
-  }
-
-  .bb-txt-2 {
-    font-family: "Inter";
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 15px;
-    line-height: 25px;
-    color: #2f2e2e;
-  }
-
-  .bb-txt-3 {
-    font-family: "Inter";
-    font-size: 16px;
-    font-weight: 500;
-    color: #2f2e2e;
-  }
-  .bb-txt-4 {
-    font-family: "Inter";
-    font-size: 16px;
-    font-weight: 500;
-    color: #2f2e2e;
-    /* margin-bottom: 10px; */
-  }
-  .bb-txt-5 {
-    font-family: "Inter";
-    font-size: 16px;
-    font-weight: 500;
-    color: #2f2e2e;
-    /* margin-bottom: 15px; */
-  }
-
-  .inf-txt-1 {
-    font-family: "Inter";
-    font-size: 52px;
-    font-weight: 600;
-    color: #2f2e2e;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    line-height: 60px;
-    
-  }
-
-  .subtext{
-    font-size: 16px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    color: #7D7C7C;
-  }
-
   .get-started-button-credit-card{
     display: flex;
     flex-direction: column;
@@ -1259,69 +928,6 @@ font-family: 'Roboto', sans-serif; */
     align-items: center;
   }
 
-  .gradient-text {
-    /* Fallback: Set a background color. */
-    background-color: #ca4246;
-    font-size: 1.9rem;
-  
-    /* Create the gradient. */
-    background-image: linear-gradient(
-      45deg,
-      #ca4246 16.666%,
-      #e16541 16.666%,
-      #e16541 33.333%,
-      #f18f43 33.333%,
-      #f18f43 50%,
-      #8b9862 50%,
-      #8b9862 66.666%,
-      #476098 66.666%,
-      #476098 83.333%,
-      #a7489b 83.333%
-    );
-  
-    /* Set the background size and repeat properties. */
-    background-size: 100%;
-    background-repeat: repeat;
-  
-    /* Use the text as a mask for the background. */
-    /* This will show the gradient as a text color rather than element bg. */
-    -webkit-background-clip: text;
-    background-clip: '';
-    -webkit-text-fill-color: transparent;
-  
-    /* Animate the text when loading the element. */
-    /* This animates it on page load and when hovering out. */
-    animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
-  }
-  
-  .gradient-text:hover {
-    animation: rainbow-text-simple-animation 0.5s ease-in forwards;
-  }
-
-  .creator-underline-marketer {
-    padding-bottom: 1px;
-    position: relative;
-    text-decoration: none;
-    font-weight: 600;
-    font-family: 'Inter';
-    font-size: 52px;
-  }
-
-  .creator-underline-marketer::after {
-    background: #ff2340;
-    background: linear-gradient(
-      to right,
-      transparent 0%,
-      #ff0e1a 50%,
-      transparent 100%
-    );
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 2px;
-    width: 100%;
-  }
 
   .creator-underline {
     padding-bottom: 1px;
@@ -1386,45 +992,6 @@ font-family: 'Roboto', sans-serif; */
 }
 
 
-
-.gradient-text {
-  /* Fallback: Set a background color. */
-  background-color: #ca4246;
-
-  /* Create the gradient. */
-  background-image: linear-gradient(
-    45deg,
-    #ca4246 16.666%,
-    #e16541 16.666%,
-    #e16541 33.333%,
-    #f18f43 33.333%,
-    #f18f43 50%,
-    #8b9862 50%,
-    #8b9862 66.666%,
-    #476098 66.666%,
-    #476098 83.333%,
-    #a7489b 83.333%
-  );
-
-  /* Set the background size and repeat properties. */
-  background-size: 100%;
-  background-repeat: repeat;
-
-  /* Use the text as a mask for the background. */
-  /* This will show the gradient as a text color rather than element bg. */
-  -webkit-background-clip: text;
-  background-clip: '';
-  -webkit-text-fill-color: transparent;
-
-  /* Animate the text when loading the element. */
-  /* This animates it on page load and when hovering out. */
-  animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
-}
-
-.gradient-text:hover {
-  animation: rainbow-text-simple-animation 0.5s ease-in forwards;
-}
-
 /* Move the background and make it smaller. */
 /* Animation shown when entering the page and after the hover animation. */
 @keyframes rainbow-text-simple-animation-rev {
@@ -1453,33 +1020,6 @@ font-family: 'Roboto', sans-serif; */
   }
 }
 
-.span-underline {
-  padding-bottom: 1px;
-  position: relative;
-  text-decoration: none;
-}
-
-.span-underline::after {
-  background: #7149c6;
-  background: linear-gradient(
-    to right,
-    transparent 0%,
-    #7149c6 50%,
-    transparent 100%
-  );
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 2px;
-  width: 100%;
-}
-
-.creator-underline {
-  padding-bottom: 1px;
-  position: relative;
-  text-decoration: none;
-}
 
 /* .creator-underline::after {
   background: #ff2340;
@@ -1513,60 +1053,7 @@ font-family: 'Roboto', sans-serif; */
   color: #000000b5;
 }
 
-/* Accordian and Footer Css code */
-.nature-background {
-  background-color: #ffffff;
-}
 
-.product-card {
-  max-width: 82vw;
-  max-height: 80vh;
-  border-radius: 5px;
-}
-
-.card-1-bg {
-  background-color: #4d4d4d;
-}
-
-.card-2-bg {
-  background-color: #ab77ff89;
-}
-
-.card-3-bg {
-  background-color: #ffd96698;
-}
-
-.card-1-text {
-  color: #ffffff;
-}
-
-.strike-color {
-  color: #4d4d4d;
-}
-
-.offer-color {
-  color: rgb(255, 0, 0);
-}
-
-.product-text {
-  text-decoration: none;
-  color: black;
-}
-
-.checkedStar {
-  color: orange;
-}
-
-.review-container {
-  height: 40vh;
-}
-
-.testimonial-class {
-  font-size: 1.5rem;
-  background-color: #ccd5ae;
-  text-align: center;
-  padding: 1.2rem;
-}
 
 /* custom css */
 .accordion {
@@ -1623,16 +1110,6 @@ font-family: 'Roboto', sans-serif; */
   text-align: start;
 }
 
-
-
-@media (min-width: 576px) {
-  .my-accordion-item {
-    color: var(--bs-accordion-color);
-    background-color: var(--bs-accordion-bg);
-    align-items: center;
-    max-width: 50%;
-  }
-}
 
 @font-face {
   font-family: "Pacifico";
@@ -1729,16 +1206,6 @@ font-family: 'Roboto', sans-serif; */
   font-feature-settings: 'liga';
 }
 
-.head-sub-head{
-  color:grey;
-  font-family: 'Poppins';
-  font-size: 13px;
-}
-
-
-.custom-box-shadow-navbar{
-  box-shadow: 2px 2px 5px rgba(96, 48, 255, 0.621);
-}
 
 .custom-container-dimensions{
   height:auto;
